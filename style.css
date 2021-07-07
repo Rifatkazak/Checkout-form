@@ -12,10 +12,11 @@
  }
  .main{
      display:flex;
+     
  }
  form {
      width: 50%;
-     margin-left: 100px;
+     margin-left: 6.5rem;
  }
  
 h1 {
@@ -178,7 +179,7 @@ i{
 .total{
     letter-spacing: 0.3rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .background{
         width: 20rem;
         height:23rem;
@@ -232,4 +233,86 @@ i{
         letter-spacing: 0rem;
     }
     
+}
+@media screen and (max-width: 400px) {
+    .main{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    form {
+        order: 1;
+        margin-left: 2.5rem;
+    }
+    .left-container {
+        font-size: small;
+    }
+    #email, #tel, #fname, #adress,
+    #city, #postcode {
+        width: 20rem;
+    }
+    #country {
+        width: 10rem;
+    }
+    .info {
+        font-size: 0.5rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .submit {
+        margin-right: 0rem;
+    }
+    .background{
+        width: 20rem;
+        height:23rem;
+        border-radius: 10px;
+        margin-top: 55px;
+        margin-left: 40px;
+    }
+    .image{
+        border-radius: 10px;
+        margin: 20px;
+        height: 7rem;
+    }
+    .product{
+        margin-top: 20px;
+        height: 6rem;
+    }
+    .product h3{
+        margin-top: 0.5rem;
+        color:#4E515A
+    }
+    .price{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        margin-left: 8px;
+        color:#F2994A
+    }
+    .span{
+        color: gray;
+        font-size: 0.6rem
+        ;
+    }
+    .counter{
+        margin-top: 1.2rem;
+        margin-left: 8px;
+    }
+    .counter #content{
+        width: 5rem;
+        height: 1.3rem;
+        font-size:1rem;
+    }
+    .footer{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .first-line, .second-line{
+        font-size: 1rem;
+    }
+    .shipping{
+       letter-spacing: 0rem;
+    }
+    .total{
+        letter-spacing: 0rem;
+    }
 }
