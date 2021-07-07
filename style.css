@@ -249,10 +249,10 @@ i{
     }
     #email, #tel, #fname, #adress,
     #city, #postcode {
-        width: 20rem;
+        width: 16rem;
     }
     #country {
-        width: 10rem;
+        width: 16rem;
     }
     .info {
         font-size: 0.5rem;
