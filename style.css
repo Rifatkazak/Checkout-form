@@ -19,10 +19,13 @@
      margin-left: 6.5rem;
  }
  
-h1 {
+body h1 {
     color: black;
    display: flex;
-   justify-content: center; 
+   justify-content: center;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+
 }
 .left-container {
     padding-top: 20px;
@@ -263,7 +266,7 @@ i{
         margin-bottom: 20px;
     }
     .submit {
-        margin-left: 10rem;
+        margin-left:11rem ;  
         margin-bottom: 4rem;
     }
     .submit #button {
