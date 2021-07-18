@@ -75,21 +75,23 @@
                     <img class="image" src="./photo1.png" alt="photo1">
                     <div class="product">
                         <h3>Vintage Backbag</h3>
-                        <p class="price"><strong>$54.99 </strong> <span class="span"><del>$94.99</del></span></p>
+                        <p class="price"><strong >$<span class="product1">54.99 </span></strong><span class="span"><del>$94.99</del></span></p>
                         <div class="counter">
-                            <select name="counter" id="content" pattern[1-10]>
-                                <option value="1">Adet</option>
-                                <option value="2" selected>1</option>
-                                <option value="3">2</option>
-                                <option value="4">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                            </select>
+                            <input type="number" class="pieceAdd" style="width:50px;height: 30px;">
+                            <button class="Add" style="width: 40px;height: 30px;">Add</button>
+                            <!-- <select name="counter" id="content" pattern[1-10]>
+                                <option class="piece" value="0">Adet</option>
+                                <option class="piece" value="1" selected>1</option>
+                                <option class="piece" value="2">2</option>
+                                <option class="piece" value="3">3</option>
+                                <option class="piece" value="4">4</option>
+                                <option class="piece" value="5">5</option>
+                                <option class="piece" value="6">6</option>
+                                <option class="piece" value="7">7</option>
+                                <option class="piece" value="8">8</option>
+                                <option class="piece" value="9">9</option>
+                                <option class="piece" value="10">10</option>
+                            </select> -->
                         </div>
                     </div>
                 </div>
@@ -97,9 +99,11 @@
                     <img class="image" src="./photo2.png" alt="photo2">
                     <div class="product">
                         <h3>Levi's Shoes</h3>
-                        <p class="price"><strong>$74.99 </strong> <span class="span"><del>$124.99</del></span></p>
+                        <p class="price"><strong >$<span class="product2">74.99 </span></strong><span class="span"><del>$124.99</del></span></p>
                         <div class="counter">
-                            <select name="counter" id="content" pattern[1-10]>
+                            <input type="number" class="pieceAdd2" style="width:50px;height: 30px;">
+                            <button class="Add2" style="width: 40px;height: 30px;">Add</button>
+                            <!-- <select name="counter" id="content" pattern[1-10]>
                                 <option value="1">Adet</option>
                                 <option value="2" selected>1</option>
                                 <option value="3">2</option>
@@ -111,25 +115,28 @@
                                 <option value="8">8</option>
                                 <option value="9">9</option>
                                 <option value="10">10</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
                 </div>
                 <div class="footer">
                     <div class="first-line">
                         <p class="shipping">Shipping</p>
-                        <p class="price2">$19</p>
+                        <p class="price2 ">$<span class="shippingprice">19</span></p>
                     </div>
                     <div class="second-line">
                         <p class="total">Total</p>
-                        <p class="price2">$148.98</p>
+                        <p class="price2 ">$<span class="price3"></span></p>
+                        
+
                     </div>
                 </div>
             </div>
     </div>
     </section>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
+
